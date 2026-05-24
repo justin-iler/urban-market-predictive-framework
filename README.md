@@ -2,7 +2,7 @@
 
 An end-to-end quantitative data pipeline and predictive framework engineered in **R** to model urban real estate asset values by blending fundamental market data with alternative geospatial risk and demographic layers. 
 
-This architecture is explicitly engineered to demonstrate the advanced data pipelines, unstructured text parsing, and rigorous validation hygiene required for institutional **Quantitative Research (Hedge Funds)** and **Location Analytics (Supply Chain)** workflows.
+This architecture is explicitly engineered to demonstrate the advanced data pipelines, unstructured text parsing, and rigorous validation hygiene required for institutional workflows.
 
 ---
 
