@@ -31,7 +31,7 @@ This architecture is explicitly engineered to demonstrate the advanced data pipe
 
 ### 5. Data Quality Controls
 * **Merge Integrity:** The listings, police-incident and Census layers are joined on ZIP code with explicit checks: lookup tables must be unique per ZIP and a join may never add rows, otherwise the notebook stops.
-* **Audit-Driven Filters:** An audit of the Boston listings led to three documented filters, each printing the number of rows it removes: non-housing units (parking spaces, boat slips, 0-bed/0-bath units under $200k), a listing entered twice under two ZIP codes, and rows where the monthly payment is inconsistent with the price (11 of 528 listings in total). In an earlier run with the payment as the target, removing them lowered XGBoost's RMSLE from about 0.38 to 0.25.
+* **Audit-Driven Filters:** An audit of the Boston listings led to three documented filters, each printing the number of rows it removes: non-housing units (parking spaces, boat slips, 0-bed/0-bath units under $200k), a listing entered twice under two ZIP codes, and rows where the monthly payment is inconsistent with the price (11 of 528 listings in total).
 
 ---
 
